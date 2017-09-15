@@ -1,4 +1,15 @@
 {
+    "name": "ob-ivan/sd-query-builder",
+    "autoload": {
+        "psr-4": {
+            "SD\\QueryBuilder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    },
     "require-dev": {
         "phpunit/phpunit": "^6.3"
     }
